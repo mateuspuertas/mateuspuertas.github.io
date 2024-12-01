@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    background-color: #1bc955;
+    color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2d3e50;
+}
+
+
+#contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-info li {
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+.section {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    padding: 15px;
+    margin: 10px 20px;
+    border-radius: 8px;
+}
+
+
+.subtitle {
+    font-family: Arial, sans-serif;
+    color: #1e88e5;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d81b60;
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+dl {
+    font-style: oblique;
+    font-size: 16px;
+}
+
+
+#footer {
+    background-color: #1bc955;
+    color: #003366;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-style: italic;
+}
