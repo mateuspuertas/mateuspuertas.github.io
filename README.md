@@ -49,3 +49,52 @@
 9- Agora em outro terminal vá até o a pasta src e escreva: npm run dev
 
 10 - Entre no local:   http://localhost:5173/
+
+
+--------------------------------
+
+
+
+1. **Faça o download do repositório**
+   - Acesse: https://github.com/leololeo630/Certificadora-3
+   - Clique em "Code" → "Download ZIP"
+
+2. **Extraia o conteúdo**
+   - Extraia o arquivo ZIP para uma pasta de sua preferência
+
+3. **Abra o prompt de comando**
+   - Windows: Pressione Win+R, digite "cmd" e Enter
+   - Mac/Linux: Abra o Terminal
+
+4. **Navegue até a pasta do projeto**
+   ```bash
+   cd caminho/para/pasta/extraida
+Instale as dependências do backend
+
+bash
+npm install
+Acesse a pasta do frontend
+
+bash
+cd src
+Instale as dependências do frontend
+
+bash
+npm install
+Execute o sistema em dois terminais separados
+
+Terminal 1 (Backend):
+
+bash
+cd src/db
+node server.js
+Terminal 2 (Frontend):
+
+bash
+cd src
+npm run dev
+Acesse o sistema
+
+O frontend estará disponível em: http://localhost:5173
+
+O backend estará rodando em: http://localhost:3001
