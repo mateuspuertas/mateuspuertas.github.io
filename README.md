@@ -27,4 +27,31 @@
 | bcryptjs         | 2.x    | Criptografia de senhas        |
 | cors             | 2.x    | Comunicação entre front/back  |
 
+
+
+
+1. Instalação
+bash
+# Na pasta raiz do projeto:
+npm install
+
+# Na pasta do frontend:
+cd src
+npm install
+2. Execução
+bash
+# Backend (pasta raiz):
+node db/server.js
+
+# Frontend (pasta src):
+npm run dev
+🔌 Portas
+Backend: http://localhost:3001
+
+Frontend: http://localhost:5173
+
+👥 Contas de Teste
+Admin: admin@email.com / senha123
+Usuário: teste@email.com / 123456
+
 ## 🚀 Como Executar
