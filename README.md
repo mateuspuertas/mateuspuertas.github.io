@@ -84,6 +84,6 @@ visualizar, gerenciar, e responder as propostas enviadas.
 
 1. **Cadastre-se** com e-mail e senha.  
 2. **Faça login** e acesse o menu de opções.  
-3. **Tente enviar** entre em subemter proposta, escreva e tente enviar uma proposta.
+3. **Tente enviar** uma proposta, entrando na opção: submter proposta.
 
 
