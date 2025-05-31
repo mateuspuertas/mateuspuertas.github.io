@@ -52,10 +52,10 @@
 
 8. **Execute o sistema em dois terminais separados**
    - Terminal 1 (Backend):
-     ```bash
-     cd src/db
-     node server.js
-
+    ```bash
+    cd src/db
+    node server.js
+    ```
    - Terminal 2 (Frontend):
     ```bash
     cd src
