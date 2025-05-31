@@ -6,7 +6,7 @@
 
 # Banco de Ideias - Meninas Digitais UTFPR-CP
 
-## 🛠️ Ferramentas Necessárias
+## Ferramentas Necessárias
 
 ### Linguagens e Frameworks
 | Ferramenta       | Versão | Link                          |
@@ -30,28 +30,22 @@
 
 
 
-1. Instalação
-bash
-# Na pasta raiz do projeto:
-npm install
+1- Faça o download do repositório
 
-# Na pasta do frontend:
-cd src
-npm install
-2. Execução
-bash
-# Backend (pasta raiz):
-node db/server.js
+2- Extrai o conteúdo
 
-# Frontend (pasta src):
-npm run dev
-🔌 Portas
-Backend: http://localhost:3001
+3- Abra o prompt de comando e entre na pasta onde o está o arquivo
 
-Frontend: http://localhost:5173
+4- Executar na pasta do arquivo o seguinte comando: npm install
 
-👥 Contas de Teste
-Admin: admin@email.com / senha123
-Usuário: teste@email.com / 123456
+5- Entre na pasta scr utlizando: cd scr
 
-## 🚀 Como Executar
+6- Agora na pasta scr utilize novamente: npm install
+
+7- Agora será utilizado 2 terminais
+
+8- No primeiro, entre na pasta do arquivo, depois em src, depois em db, após isso escreva: node server.js
+
+9- Agora em outro terminal vá até o a pasta src e escreva: npm run dev
+
+10 - Entre no local:   http://localhost:5173/
