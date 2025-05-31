@@ -93,10 +93,8 @@ Terminal 2 (Frontend):
    ```
 
 9. **Acesse o sistema**
-
-O frontend estará disponível em: http://localhost:5173
-
-O backend estará rodando em: http://localhost:3001
+   - O frontend estará disponível em: http://localhost:5173
+   - O backend estará rodando em: http://localhost:3001
 
 10. **Teste**
    - Usuário: teste@email.com
