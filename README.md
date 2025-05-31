@@ -56,7 +56,6 @@
 
 
 1. **Faça o download do repositório**
-   - Acesse: https://github.com/leololeo630/Certificadora-3
    - Clique em "Code" → "Download ZIP"
 
 2. **Extraia o conteúdo**
@@ -64,37 +63,41 @@
 
 3. **Abra o prompt de comando**
    - Windows: Pressione Win+R, digite "cmd" e Enter
-   - Mac/Linux: Abra o Terminal
 
 4. **Navegue até a pasta do projeto**
    ```bash
    cd caminho/para/pasta/extraida
-Instale as dependências do backend
 
-bash
-npm install
-Acesse a pasta do frontend
+5. **Instale as dependências do backend**
+   ```bash
+   npm install
 
-bash
-cd src
-Instale as dependências do frontend
+6. **Acesse a pasta do frontend**
+   ```bash
+   cd src
 
-bash
-npm install
-Execute o sistema em dois terminais separados
+7. **Instale as dependências do frontend**
+   ```bash
+   npm install
 
+8. **Execute o sistema em dois terminais separados**
 Terminal 1 (Backend):
+   ```bash
+   cd src/db
+   node server.js
 
-bash
-cd src/db
-node server.js
 Terminal 2 (Frontend):
+   ```bash
+   cd src
+   npm run dev
+   ```
 
-bash
-cd src
-npm run dev
-Acesse o sistema
+9. **Acesse o sistema**
 
 O frontend estará disponível em: http://localhost:5173
 
 O backend estará rodando em: http://localhost:3001
+
+10. **Teste**
+   - Usuário: teste@email.com
+   - Senha: 123456
